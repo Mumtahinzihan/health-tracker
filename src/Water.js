@@ -5,7 +5,6 @@ export default function Water() {
     let handleSubmit = (e) => {
         e.preventDefault();
         localStorage.setItem('Water taken', water);
-        localStorage.getItem('Water taken', water);
       }
     return (
         <div>
